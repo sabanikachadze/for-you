@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+}
+body{
+  background: url(cropped-1920-1080-1339872.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  row-gap: 50px;
+}
+h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+input{
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding: 30px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.img-one{
+  background: url(images/download\ \(13\).jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  margin-top: 10px;
+  display: none;
+}
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  row-gap: 20px;
+}
+.img-two{
+  background: url(images/download\ \(14\).jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 50px;
+  margin-top: 10px;
+  color: white;
+  display: none;
+  letter-spacing: 4px;
+}
+.display{
+  display: block;
+}
+button{
+  width: 120px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  letter-spacing: 1px;
+}
+button:hover{
+  background: blueviolet;
+  color: white;
+  transition: 0.2s;
+}
+.input-value{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
